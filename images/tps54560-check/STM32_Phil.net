@@ -1,0 +1,1283 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\Jack\\Documents\\KiCad-Project\\STM32_Phil\\STM32_Phil.kicad_sch")
+		(date "2026-09-17T17:04:06")
+		(tool "Eeschema 10.0.5")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "STM32_Phil.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "J6")
+			(value "A7670E 8-pin")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "WeatherStation")
+				(part "A7670E_8Pin")
+				(description "A7670E carrier cable connector, user-specified pin order; pitch pending confirmation")
+			)
+			(property
+				(name "Sheetname")
+				(value "STM32_Phil")
+			)
+			(property
+				(name "Sheetfile")
+				(value "STM32_Phil.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ab2fe118-e061-4962-89fe-9405e35e38e4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "ESP32-S3 Nano")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "WeatherStation")
+				(part "ESP32_S3_Nano")
+				(description "30-pin board; pin names from supplied photo; footprint unverified")
+			)
+			(property
+				(name "Sheetname")
+				(value "STM32_Phil")
+			)
+			(property
+				(name "Sheetfile")
+				(value "STM32_Phil.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "58242baa-4daa-45e5-80c0-26e7fbace525")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "MAX3485 Module")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "WeatherStation")
+				(part "MAX3485_Module")
+				(description "Module header labels from supplied RS485 V2.05 photo; UART direction and EN behavior unverified")
+			)
+			(property
+				(name "Sheetname")
+				(value "STM32_Phil")
+			)
+			(property
+				(name "Sheetfile")
+				(value "STM32_Phil.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a4e12950-a9fa-48b8-9a04-db728ae33353")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "TPS54560 Module 12V to 5V")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "WeatherStation")
+				(part "TPS54560_Module")
+				(description "40 x 20 x 5.5 mm step-down module; 12V input, configure output to 5V; pads per user image")
+			)
+			(property
+				(name "Sheetname")
+				(value "STM32_Phil")
+			)
+			(property
+				(name "Sheetfile")
+				(value "STM32_Phil.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "80ec615b-a15b-4ede-9fe0-a2a8c54fe7e8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "WeatherStation")
+			(part "A7670E_8Pin")
+			(description "A7670E carrier cable connector, user-specified pin order; pitch pending confirmation")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "A7670E 8-pin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "A7670E carrier cable connector, user-specified pin order; pitch pending confirmation")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VCC")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "RXD")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "TXD")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "PIN_EMPTY")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "VDD")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "PWR_EN")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "WeatherStation")
+			(part "ESP32_S3_Nano")
+			(description "30-pin board; pin names from supplied photo; footprint unverified")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ESP32-S3 Nano")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "30-pin board; pin names from supplied photo; footprint unverified")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "D1_GPIO43_TX")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "D0_GPIO44_RX")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "RST")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "D2_GPIO5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "D3_GPIO6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "D4_GPIO7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "D5_GPIO8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "D6_GPIO9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "D7_GPIO10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "D8_GPIO17")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "D9_GPIO18")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "D10_GPIO21")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "D11_GPIO38_MOSI")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "D12_GPIO47_MISO")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "D13_GPIO48_SCK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "3V3")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "B0_GPIO46")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "A0_GPIO1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "A1_GPIO2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "A2_GPIO3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "A3_GPIO4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "A4_GPIO11_SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "A5_GPIO12_SCL")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "A6_GPIO13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "A7_GPIO14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "B1_GPIO0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "29")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "30")
+					(name "VIN")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "WeatherStation")
+			(part "MAX3485_Module")
+			(description "Module header labels from supplied RS485 V2.05 photo; UART direction and EN behavior unverified")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MAX3485 Module")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Module header labels from supplied RS485 V2.05 photo; UART direction and EN behavior unverified")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "EN")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "RXD")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "TXD")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "A")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "B")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "WeatherStation")
+			(part "TPS54560_Module")
+			(description "40 x 20 x 5.5 mm step-down module; 12V input, configure output to 5V; pads per user image")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS54560 Module 12V to 5V")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "40 x 20 x 5.5 mm step-down module; 12V input, configure output to 5V; pads per user image")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VIN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "VOUT")
+					(type "power_out")
+				)
+				(pin
+					(num "5")
+					(name "GND")
+					(type "power_in")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "WeatherStation")
+			(uri "${KIPRJMOD}/WeatherStation.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "unconnected-(J6-GND-Pad2)")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "unconnected-(J6-GND-Pad8)")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "8")
+				(pinfunction "GND_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "unconnected-(J6-PIN_EMPTY-Pad5)")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "5")
+				(pinfunction "PIN_EMPTY_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "4")
+			(name "unconnected-(J6-PWR_EN-Pad7)")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "7")
+				(pinfunction "PWR_EN_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "unconnected-(J6-RXD-Pad3)")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "3")
+				(pinfunction "RXD_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "unconnected-(J6-TXD-Pad4)")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "4")
+				(pinfunction "TXD_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "unconnected-(J6-VCC-Pad1)")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "1")
+				(pinfunction "VCC_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "unconnected-(J6-VDD-Pad6)")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "6")
+				(pinfunction "VDD_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "unconnected-(U1-3V3-Pad17)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "3V3_17")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "unconnected-(U1-A0_GPIO1-Pad19)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "A0_GPIO1_19")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "11")
+			(name "unconnected-(U1-A1_GPIO2-Pad20)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "A1_GPIO2_20")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "unconnected-(U1-A2_GPIO3-Pad21)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "A2_GPIO3_21")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "13")
+			(name "unconnected-(U1-A3_GPIO4-Pad22)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "A3_GPIO4_22")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "14")
+			(name "unconnected-(U1-A4_GPIO11_SDA-Pad23)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "A4_GPIO11_SDA_23")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "15")
+			(name "unconnected-(U1-A5_GPIO12_SCL-Pad24)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "A5_GPIO12_SCL_24")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "16")
+			(name "unconnected-(U1-A6_GPIO13-Pad25)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "A6_GPIO13_25")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "17")
+			(name "unconnected-(U1-A7_GPIO14-Pad26)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "A7_GPIO14_26")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "18")
+			(name "unconnected-(U1-B0_GPIO46-Pad18)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "B0_GPIO46_18")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "19")
+			(name "unconnected-(U1-B1_GPIO0-Pad28)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "28")
+				(pinfunction "B1_GPIO0_28")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "20")
+			(name "unconnected-(U1-D0_GPIO44_RX-Pad2)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "D0_GPIO44_RX_2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "21")
+			(name "unconnected-(U1-D1_GPIO43_TX-Pad1)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "D1_GPIO43_TX_1")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(U1-D2_GPIO5-Pad5)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "D2_GPIO5_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(U1-D3_GPIO6-Pad6)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "D3_GPIO6_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(U1-D4_GPIO7-Pad7)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "D4_GPIO7_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(U1-D5_GPIO8-Pad8)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "D5_GPIO8_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(U1-D6_GPIO9-Pad9)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "D6_GPIO9_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(U1-D7_GPIO10-Pad10)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "D7_GPIO10_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(U1-D8_GPIO17-Pad11)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "D8_GPIO17_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(U1-D9_GPIO18-Pad12)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "D9_GPIO18_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(U1-D10_GPIO21-Pad13)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "D10_GPIO21_13")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(U1-D11_GPIO38_MOSI-Pad14)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "D11_GPIO38_MOSI_14")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(U1-D12_GPIO47_MISO-Pad15)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "D12_GPIO47_MISO_15")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(U1-D13_GPIO48_SCK-Pad16)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "D13_GPIO48_SCK_16")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(U1-GND-Pad4)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(U1-GND-Pad29)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "29")
+				(pinfunction "GND_29")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(U1-RST-Pad3)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "RST_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(U1-VBUS-Pad27)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "VBUS_27")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "unconnected-(U1-VIN-Pad30)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "30")
+				(pinfunction "VIN_30")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(U2-A-Pad7)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "A_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(U2-B-Pad8)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "B_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(U2-EN-Pad1)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "EN_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(U2-GND-Pad5)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "GND_5")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(U2-GND-Pad6)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "GND_6")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(U2-RXD-Pad3)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "RXD_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "45")
+			(name "unconnected-(U2-TXD-Pad4)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "TXD_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "unconnected-(U2-VCC-Pad2)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "VCC_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(U3-EN-Pad3)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(U3-GND-Pad2)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(U3-GND-Pad5)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "GND_5")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(U3-VIN-Pad1)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "VIN_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(U3-VOUT-Pad4)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "VOUT_4")
+				(pintype "power_out")
+			)
+		)
+	)
+)
